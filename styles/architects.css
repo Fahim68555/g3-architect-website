@@ -7,6 +7,13 @@
   font-style: normal;
 }
 /* shared styles */
+.section-title{
+  font-size:2.8rem;
+  font-weight:bold;
+  color: rgba(19, 19, 19, 1);
+  margin-bottom: 24px;
+
+}
 .display-flex{
   display: flex;
 }
@@ -104,13 +111,7 @@ main{
   max-width: 530px;
   
 }
-.feature-title{
-  font-size:2.8rem;
-  font-weight:bold;
-  color: rgba(19, 19, 19, 1);
-  margin-bottom: 24px;
 
-}
 #quick-list{
   color: rgba(114, 114, 114, 1);
   font-weight: 500;
@@ -137,7 +138,59 @@ main{
   margin-left:10px;
 }
 }
+/* feature will enjoy style */
+
+ /* some facts style */
+ .some-facts-heading{
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: rgba(19, 19, 19, 1);
+  margin-bottom: 24px;
+ }
+ .some-facts-pragrap{
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(114, 114, 114, 1);
+  margin-bottom: 100px;
+ }
+
+.facts-container{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  
+}
+.fact{
+  border: 1px solid rgba(255, 144, 14, 1);
+  border-radius:8px;
+  max-width:242px;
+  max-height:242px;
+text-align: center;
+
+}
+.fact-icon{
+  height: 45px;
+  width: 45px;
+  margin-top: 45px;
+
+}
+.fact-number{
+  font-size:2.8rem;
+  color: rgba(66, 66, 66, 1);
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: -25px;
+}
+.fact-name{
+  font-size:1rem;
+  font-weight: 600;
+  color:rgba(114, 114, 114, 1);
+  margin-top:25px ;}
+
 /* medium size device */
 @media screen and (min-width:576px) and (max-width:992px){
-  .tem{flex-direction: column;}
+  .teams{flex-direction: column;}
+  .our-features{
+    margin:50px auto;
+  }
+
 }
